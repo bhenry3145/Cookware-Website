@@ -12,7 +12,6 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: repeat(4, 1fr);
-
 }
 
 .start-cooking-photos {
@@ -45,11 +44,11 @@
 }
 
 .card-height1 {
+    background-image: url(../assets/images\ for\ use\ on\ website/Reviews1.jpg);
     width: 531px;
     height: 664.751px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(../assets/images\ for\ use\ on\ website/Reviews1.jpg);
 }
 
 .card-hero1 {
@@ -90,4 +89,19 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 345px;
     padding: 73px 28px;
+}
+
+.footer {
+    background-color: #1E2C20;
+    padding: 0 6rem 0 6rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer p {
+    color: white;
 }
