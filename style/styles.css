@@ -1,11 +1,41 @@
 .logo {
-    height: auto;
-    width: 8rem;
+    height: 200px;
+    width: 200px;
+    padding-left: 6rem;
 }
 
 .flex-even {
     display: flex;
+    justify-content: space-around;
+}
+
+.flex-even a {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.hero-content {
+    position: absolute;
+    background-color: #181818CC;
+    color: white;
+    left: 8rem;
+    bottom: 16rem;
+    font-size: 40px;
+    padding: 2rem;
+}
+
+.green-bottom {
+    background: #1E2C20;
+    color: white;
+    display: flex;
     justify-content: center;
+    padding: 1rem;
 }
 
 .grid-cooking {
@@ -14,27 +44,67 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-cooking p {
+    font-weight: bold;
+    font-size: 32px;
+}
+
 .start-cooking-photos {
     height: 402px;
     width: 379px;
+    border-radius: 10px;
 }
 
 .new-arrivals {
-    border-radius: 10px;
-    border: 1px solid #000000;
-    padding: 24px;
-    height: 402px;
-    width: 379px;
+    height: 632px;
+    width: 805px;
+    padding-bottom: 2rem;
 }
 
 .new-arrivals-flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2rem 6rem 0 6rem;
 }
 
-.best-sellers-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.color {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.color2 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: darkorange;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.color3 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: gold;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.color4 {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    display: inline-block;
+}
+
+.best-sellers-design {
+    padding: 2rem 6rem 6rem 6rem;
 }
 
 .best-sellers {
@@ -56,7 +126,9 @@
     background: rgba(18, 18, 18, 0.60);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 345px;
+    width: 426px;
     padding: 73px 28px;
+    color: white;
 }
 
 .card-height2 {
@@ -72,6 +144,8 @@
     background: rgba(18, 18, 18, 0.60);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 345px;
+    width: 426px;
+    color: white;
     padding: 73px 28px;
 }
 
@@ -89,11 +163,12 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     height: 345px;
     padding: 73px 28px;
+    color: white;
 }
 
 .footer {
     background-color: #1E2C20;
-    padding: 0 6rem 0 6rem;
+    padding: 6rem 6rem 6rem 6rem;
 }
 
 .footer-grid {
