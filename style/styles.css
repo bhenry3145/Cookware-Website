@@ -227,10 +227,12 @@
 
 .footer-bold {
     font-weight: bolder;
+    font-size: 20px;
 }
 
 .icon-size {
     padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 .btn-search {
@@ -242,9 +244,26 @@
 
 .no-margin {
     margin-right: 5px;
+    border-radius: 0%;
+    font-size: 12px;
 }
 
 .icon-area {
     margin-top: 1rem;
     background-color: white;
+}
+
+@media (max-width: 576px) {
+
+    .grid-cooking {
+        padding-left: 6rem;
+        padding-right: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+
+
+
 }
