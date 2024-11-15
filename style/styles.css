@@ -275,6 +275,11 @@ a:hover {
     font-size: 20px;
 }
 
+.second-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .icon-size {
     padding-right: 1rem;
     padding-left: 1rem;
