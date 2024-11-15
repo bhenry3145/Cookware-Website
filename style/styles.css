@@ -22,9 +22,20 @@
 }
 
 .red-text {
-    color: red;
+    color: #982a1c !important;
 }
 
+a:hover {
+    color: #D76151;
+    border-bottom: solid #D76151 2px;
+}
+
+.text-decoration {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #353535;
+}
 
 .grid-navbar {
     display: grid;
@@ -73,6 +84,11 @@
     padding-top: 1rem;
 }
 
+.overflow {
+    overflow: hidden;
+    display: inline-block;
+}
+
 .start-cooking {
     display: grid;
     justify-content: center;
@@ -85,6 +101,11 @@
     height: 25.125rem;
     width: 100%;
     border-radius: 10px;
+    display: block;
+}
+
+.start-cooking-photos:hover {
+    transform: scale(1.1);
 }
 
 .new-arrivals {
@@ -98,6 +119,10 @@
     height: 632px;
     width: 805px;
     padding-bottom: 2rem;
+}
+
+.new-arrivals-picture:hover {
+    filter: brightness(80%);
 }
 
 .new-arrivals-flex {
@@ -156,6 +181,12 @@
 .btn {
     border: 2px solid black;
     border-radius: 0;
+}
+
+.best-sellers-content button:hover{
+    background-color: #1E2C20;
+    color: white;
+
 }
 
 .best-sellers {
