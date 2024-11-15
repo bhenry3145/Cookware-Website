@@ -11,4 +11,4 @@ Peer Review: Gianpaolo Reinares
 > - For the Header, if you want to match the figma better, I would suggest looking into the 'Offcanvas' section of the 'Navbar' page on GetBootstrap.
 > Overall, the site just needs some responiveness work between 1800-500px. But besides that, everything else looks great within certain dimensions.
 
-update: 
+update: I used GP's advice on the offcanvas, so that helped a lot. I also fixed the h2's in the reviews so now they are centered correctly. 

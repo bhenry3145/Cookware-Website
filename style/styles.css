@@ -355,6 +355,13 @@ a:hover {
         margin-bottom: 4rem;
     }
 
+    .offcanvas-center {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+        font-size: 24px;
+    }
+
     .grid-cooking {
         padding-left: 2rem;
         padding-right: 2rem;
