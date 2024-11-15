@@ -10,3 +10,5 @@ Peer Review: Gianpaolo Reinares
 > - In 'Reviews', Don't forget to center the text in the h2's; also in 500px, the boxes with text could be a bit lower;
 > - For the Header, if you want to match the figma better, I would suggest looking into the 'Offcanvas' section of the 'Navbar' page on GetBootstrap.
 > Overall, the site just needs some responiveness work between 1800-500px. But besides that, everything else looks great within certain dimensions.
+
+update: 
