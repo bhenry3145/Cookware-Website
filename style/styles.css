@@ -31,6 +31,14 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
+.hero-pic {
+    position: relative;
+}
+
+.hero-photo {
+    width: 100%;
+}
+
 .hero-content {
     position: absolute;
     background-color: #181818CC;
@@ -74,8 +82,8 @@
 }
 
 .start-cooking-photos {
-    height: 402px;
-    width: 379px;
+    height: 25.125rem;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -93,6 +101,12 @@
 }
 
 .new-arrivals-flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 6rem 0 6rem;
+}
+
+.reviews-flex {
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 6rem 0 6rem;
@@ -253,17 +267,87 @@
     background-color: white;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
 
     .grid-cooking {
-        padding-left: 6rem;
-        padding-right: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 2rem;
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
     }
 
+    .start-cooking-photos {
+        height: 16rem;
+    }
 
+    .hero-content {
+        left: 2rem;
+        bottom: 4rem;
+        font-size: 20px;
+        padding: 1rem;
+    }
 
+    .hero-content p {
+        margin-bottom: 0;
+    }
+
+    .logo {
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        justify-content: end;
+    }
+
+    .new-arrivals-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 2rem;
+    }
+
+    .new-arrivals-picture {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .best-sellers {
+        width: 100%;
+        height: 60rem;
+        padding: 0;
+    }
+
+    .best-sellers-content {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .card-hero {
+        top: 4rem;
+        left: 1rem;
+        height: 20rem;
+        width: 90%;
+        border-radius: 10%;
+    }
+
+    .card {
+        border-radius: 10%;
+    }
+
+    .reviews-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: auto;
+    }
 
 }
